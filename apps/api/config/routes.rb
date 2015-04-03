@@ -1,0 +1,1 @@
+get '/books', to: 'book#index'

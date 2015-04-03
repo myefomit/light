@@ -1,0 +1,12 @@
+<h1>Welcome to lotusBooks app!</h1>
+
+<div ng-controller="bookController">
+  <div ng-repeat="b in books">
+    <h3>{{b.title}}</h3>
+    <hr>
+    <div>
+      <h4>{{b.author}}</h4>
+      <p>Genre: {{b.genre}}</p>
+    </div>
+  </div>
+</div>

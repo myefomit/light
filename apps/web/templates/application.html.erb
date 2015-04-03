@@ -1,0 +1,19 @@
+<!doctype HTML>
+<html ng-app="lotusBooks">
+  <head>
+    <title>Web</title>
+  </head>
+  <body>
+
+    <%= yield %>
+
+    <!-- Require AngularJS -->
+    <script src="/javascripts/ng-app/angular.js"></script>
+    <script src="/javascripts/ng-app/angular-resource.js"></script>
+
+    <!-- Require custom js -->
+    <script src="/javascripts/ng-app/app.js"></script>
+    <script src="/javascripts/ng-app/controllers/bookController.js"></script>
+    <script src="/javascripts/ng-app/services/book.js"></script>
+  </body>
+</html>
